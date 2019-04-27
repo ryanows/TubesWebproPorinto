@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: 	#ffffff; 
+}
+
+button {
+	margin: 5px 0 25px;
+}
+
+a, label, p {
+	color: white;
+}
+
+.btn-large {
+	width: 300px;
+}
+
+.btn-medium {
+	width: 200px;
+}
+
+.btn-small {
+	width: 100px;
+}
+
+
+.forgot a {
+	color: #c2fbfe;
+}
+
+.logo-circle {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+}
+
+.img-promo {
+	margin-top: 20px;
+	width:100%;
+}
+
+.main-section {
+	margin: auto;
+	margin-top: 130px;
+}
+
+.modal-content {
+	background-color: #3b4652;
+	opacity: .95;
+	padding: 0 18px;
+	box-shadow: 0px 0px 2px #848484;
+}
+
+.user-img {
+	margin-top: -50px;
+	margin-bottom: 35px;
+}
+
+.form-group{
+	margin-bottom: 25px;
+}
+
+.from-group input {
+	height: 42px;
+	border-radius: 5px;
+	border: 0;
+	font-size: 18px;
+	padding-left: 54px;
+}
+
+.from-group:: before {
+	font-family: 'Font Awasome\ 5 Free';
+	content: "\f007";
+	position : absolute;
+	font-size: 22px;
+	color: #555e60;
+	left: 28px;
+	padding-top: 4px
+
+}
+
+.btn-red {
+	background-color: #CC3300;
+	color:  #fff;
+	font-size: 19px;
+	
+	border-radius: 5px;
+	border-bottom: 4px solid #219882;
+
+}
+
+.btn-blue {
+	background-color: #00BAD3;
+	color:  #fff;
+	font-size: 19px;
+	border-radius: 5px;
+	border-bottom: 4px solid #D8BB2B;
+}
+
+.btn-green {
+	background-color: #1E9915;
+	color:  #fff;
+	font-size: 19px;
+	border-radius: 5px;
+	border-bottom: 4px solid #275891;
+}
+
+.btn-yellow {
+	background-color: #E2CA3D;
+	color:  #fff;
+	font-size: 19px;
+	border-radius: 5px;
+	border-bottom: 4px solid #176AA5;
+}
+
+.forgot {
+	padding: 5px 0 25px;
+}
+
+.template {
+	position: relative;
+	display: inline;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.slidercontainer {
+	width: 100%;
+}
+
+.slider {
+	-webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+	opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}

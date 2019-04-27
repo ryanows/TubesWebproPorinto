@@ -1,0 +1,21 @@
+body {
+	background: #F8F8F8;
+}
+
+.btn-menu {
+	height: 250px;
+	width: 250px;
+	margin-left: 50px;
+}
+
+.menu-title {
+	font-size: 2em;
+}
+
+.menu-content {
+	font-size: 4em;
+}
+
+.outline {
+	border: 1px solid #ff0000;
+}
